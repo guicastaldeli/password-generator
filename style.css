@@ -1,0 +1,57 @@
+html {
+    background-color: black;
+}
+
+::selection {
+    background-color: #868686;
+}
+
+p {
+    color: #cccccc;
+    font-family: 'Cascadia Mono';
+}
+
+#pass-conc {
+    position: absolute;
+    top: 190px
+}
+
+#exit {
+    position: absolute;
+    top: 190px;
+}
+
+input {
+    caret-color: rgb(255, 255, 255);
+    
+    outline: none;
+    
+    font-size: 17px;
+    
+    border: 0px solid;
+    background-color: black;
+}
+input, select, textarea {
+    font-family: 'Cascadia Mono';
+    color: #cccccc;
+}
+
+#input-pass {
+    position: relative;
+    top: 180px;
+    left: 12px;
+}
+#input-num {
+    position: relative;
+    top: 140px;
+    left: 12px;
+}
+
+#right {
+    position: relative;
+    top: 217px;
+}
+#right-2 {
+    position: relative;
+    top: 177px;
+}
